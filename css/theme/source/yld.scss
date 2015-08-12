@@ -1,7 +1,6 @@
 /**
- * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ * YLD theme for reveal.js.
  *
- * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
 
 
@@ -16,7 +15,7 @@
 
 
 // Override theme settings (see ../template/settings.scss)
-$backgroundColor: #222;
+$backgroundColor: #123039;
 
 $mainColor: #fff;
 $headingColor: #fff;
@@ -38,17 +37,23 @@ $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
 section.has-light-background {
-	&, h1, h2, h3, h4, h5, h6 {
-		color: #222;
-	}
+  &, h1, h2, h3, h4, h5, h6 {
+    color: #222;
+  }
 }
-
-body {
-	background-repeat: no-repeat;
-	background-image: url(../../images/yld.png);
-	background-position: left top; 
- }
 
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.reveal section img {
+  border: 0;
+  background-color: white;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-image: url('../../images/yld.svg');
+  background-position: 30px 30px;
+
+}
