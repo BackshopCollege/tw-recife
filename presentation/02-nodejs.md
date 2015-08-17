@@ -22,13 +22,71 @@
 
 > Node allows you to build scalable network applications using JavaScript on the server-side.
 
-
 ### JavaScript: V8 Javascript engine
 
 ![V8](images/v8.jpg)
 
 
-### Cross-platform: libuv
+### Cross-platforma: libuv
 
 ![Libuv](images/libuv.png)
 
+
+### Modelo Síncrono vs Assíncrono
+
+
+## Síncrono
+
+### Ruby / Java / Python / Rust  ...
+
+
+### Síncrono
+```
+userId = 293;
+user = User.by(userId); // 100ms
+ // WAITING ....
+Mailer.welcome(user);
+puts 'Email Sent'
+```
+
+
+## Síncrono
+#### Como atender múltiplas requisições em simultâneo ?
+
+
+> Threads / Processos
+
+
+![sincrono-model](images/sincrono.png)
+
+
+## Assíncrono
+
+```
+var userId = 239;
+User.by(userId, function(err, user) {
+  if (err)
+    return console.error(err);
+
+  Mailer.welcome(user, console.log);
+});
+
+console.log('Email Sent');
+```
+
+
+![assincrono](images/assincrono.png)
+
+
+## Metafora Event Loop
+
+![garcon](images/waiter.jpg)
+
+
+## Pseudo-código
+
+```
+ while(queue.waitForMessage()) {
+    queue.processNextMessage();
+ }
+```
