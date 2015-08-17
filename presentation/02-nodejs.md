@@ -82,7 +82,7 @@ console.log('Email Sent');
 ![assincrono](images/assincrono.png)
 
 
-## Metafora Event Loop
+## Metáfora Event Loop
 
 ![garcon](images/waiter.jpg)
 
