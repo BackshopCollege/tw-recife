@@ -2,9 +2,12 @@
 
 ![node](images/node.png)
 
-  Thiago Dantas   
+
+ ## Thiago Dantas   
+
   github.com/tdantas  
   twitter.com/thiagochapa  
+  yld.io/team/thiago+dantas
 
 
 ![node-ecosystem](images/node-ecosystem.png)
@@ -17,7 +20,7 @@ Note:
   Experiência em Node ?
 
 
-#RECAP
+#RECAP.JS 
 
 
 ### Qual o output e por quê?
