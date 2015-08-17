@@ -33,6 +33,9 @@
 ![Libuv](images/libuv.png)
 
 
+![nodejs-libuv](images/nodejs-libuv.png)
+
+
 ### Modelo Síncrono vs Assíncrono
 
 
