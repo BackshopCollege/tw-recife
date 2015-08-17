@@ -3,13 +3,21 @@
 ![node](images/node.png)
 
 
- ## Thiago Dantas   
+# Obrigado 
+
+##Andrei Tognolo
+![tw](images/thoughworks.png)  
+
+
+## About me 
+### Thiago Dantas   
 
   github.com/tdantas  
   twitter.com/thiagochapa  
   yld.io/team/thiago+dantas
 
 
+## About you
 ![node-ecosystem](images/node-ecosystem.png)
 Note:  
  
@@ -100,3 +108,21 @@ map(numbers, square, function(err, result) {
 Note:
  alterar a assinatura da square function.   
  js é single threaded ;)
+
+
+#Agenda
+ 
+ ### Manhã
+ 
+ * Nodejs Intro
+ * NodeSchool
+ * Questões
+
+
+#Agenda
+ ### Tarde
+   
+ * HapiJS
+ * Questões
+ * BEER O'clock \0/
+
