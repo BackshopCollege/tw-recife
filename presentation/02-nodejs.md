@@ -18,7 +18,7 @@
 # O que é o Node.Js ?
 
 
-## Server-side JavaScript
+## Javascript no lado do Servidor
 
 > Node allows you to build scalable network applications using JavaScript on the server-side.
 
