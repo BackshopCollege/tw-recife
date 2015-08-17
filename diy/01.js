@@ -1,8 +1,9 @@
 var name = 'https://www.yld.io';
 
 function greetings() {
-  if (!name)
+  if (!name) {
     var name = 'http://www.thoughtworks.com';
+  }
 
   console.log(name);
 }
