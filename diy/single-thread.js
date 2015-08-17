@@ -8,9 +8,9 @@ function inc() {
 
 var loop = 100;
 while(loop--) 
-  setTimeout(inc, 1000);
+  var t1 = setTimeout(inc, 1000);
 
-setTimeout(function(){
+var t2 = setTimeout(function(){
   console.log(sharedVariable);
 }, 1000);
 
