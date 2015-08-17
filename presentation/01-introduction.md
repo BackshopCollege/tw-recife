@@ -84,9 +84,6 @@ whereAmIFrom();
 ```
 
 
-#Hoisting 
-
-
 # Exercício
 
 ```
