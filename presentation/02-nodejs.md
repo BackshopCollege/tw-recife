@@ -3,6 +3,11 @@
 ![node](images/node.png)
 
 
+![you-diy](images/you-can-read-tutorials-all-day-but-youll-only-improve-by-doing-large.jpg)
+Note:
+  Antes de iniciarmos, acredito que para termos um maior proveito de hoje, vamos tentar ao maximo fazer/sentir como as coisas funcionam ao inves de estarmos o dia todo sentado e assistindo. Ok ?
+
+
 ##Instalação
 
 [Node JS](https://nodejs.org/)   
@@ -41,10 +46,11 @@
 
 ## Síncrono
 
-### Ruby / Java / Python / Rust  ...
+### Ruby / Java / Python  ....
 
 
 ### Síncrono
+
 ```
 userId = 293;
 user = User.by(userId); // 100ms
@@ -66,6 +72,22 @@ puts 'Email Sent'
 
 ## Assíncrono
 
+#### Bate e Volta
+
+```
+function webService(id) {
+  setTimeout(function(){
+    var body = 'webService response payload ' + id;
+    return body;
+  }, 1000);
+}
+
+var response = webService(100);
+console.log(response);
+```
+
+
+## Real World
 ```
 var userId = 239;
 User.by(userId, function(err, user) {
@@ -78,13 +100,26 @@ User.by(userId, function(err, user) {
 console.log('Email Sent');
 ```
 
-
-![assincrono](images/assincrono.png)
+Note:
+  - Numa função asincrona ( AJAX por exemplo ) 
+  como recuperamos o valor da chamada ? 
+  No sincrono sabemos que o 'return' faz este papel.
 
 
 ## Metáfora Event Loop
 
 ![garcon](images/waiter.jpg)
+
+
+## Fluxo de Trabalho
+
+* Cliente chega ao restaurante e senta em uma mesa.
+* O Garçom atende apenas uma vez por vez.
+* O Garçom recolhe o pedido e leva o pedido a cozinha.
+* Quando o Pedido está pronto, a cozinha toca o sino. Quando o Garçom estiver livre, pega o pedido e leva a respectiva mesa.
+
+
+![assincrono](images/assincrono.png)
 
 
 ## Pseudo-código
@@ -94,8 +129,52 @@ console.log('Email Sent');
     queue.processNextMessage();
  }
 ```
+  [Playground](http://latentflip.com/loupe/)
+
+Note:
+  Event Loop é o modelo de concorrencia do JS.   
+  Podemos pensar como se todo nosso codigo fosse implicitamente sincronizado.   
+
+  Actor Model Analogia
+
+  - Apresentar o codigo de Single Threaded
 
 
-## Event loop Demo
+![do-it](images/do-it.jpg)
 
-  [DEMO](http://latentflip.com/loupe/)
+
+## Node Module System
+ 
+ Qual o sistema de modulos/namespace que JS possui ?
+ ![do-it-shutup](images/do-it-shutup.jpg)
+
+
+## JS não tem um built-in module system
+   ##### Workaround da Comunidade
+
+* CommonJS
+* Asynchronous Module Definition (AMD)
+
+
+### Node Module System
+![commonJS](images/commonjs.jpg)
+
+
+## Node APIS
+
+ * TCP / UDP / TLS / HTTP / HTTPS
+ * FileSystem
+ * Crypto
+ * Streams
+ * Event-Emitter
+  ...
+
+
+## Let's Play
+
+ - Event-Emitter
+ - Ler um ficheiro.
+ - Watch Ficheiro.
+ - Raw HTTP Server
+ - WebSocket
+
