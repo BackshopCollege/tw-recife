@@ -140,13 +140,9 @@ Note:
   - Apresentar o codigo de Single Threaded
 
 
-![do-it](images/do-it.jpg)
-
-
 ## Node Module System
  
  Qual o sistema de modulos que JS possui ?
- ![do-it-shutup](images/do-it-shutup.jpg)
 
 
 ## JS não tem um built-in module system
@@ -170,7 +166,9 @@ Note:
   ...
 
 
-## Let's Play
+## Let's
+![do-it](images/do-it.jpg)
+
 
  - command line arguments
  - ler um ficheiro
