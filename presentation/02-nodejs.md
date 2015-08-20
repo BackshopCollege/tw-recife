@@ -181,7 +181,5 @@ Note:
   - install versão especifica
   - install github
   - install dev dependencies
- - Uppercase arquivo utilizando stream
+ - transformando um gigante arquivo utilizando stream
  - raw HTTP server
- - cliente http ( http.request )
-
