@@ -189,6 +189,6 @@ Note:
 ## Instalação
  
  ```
-  $ npm install -g learnyournode
-  $ learnyournode
+  $ npm install -g learnyounode
+  $ learnyounode
  ```
