@@ -1,0 +1,16 @@
+{
+  "name": "hapi-routing",
+  "version": "1.0.0",
+  "description": "'hapi routing example'",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi-auth-basic": "^2.0.0",
+    "joi": "^6.5.0",
+    "lout": "^6.2.3"
+  }
+}

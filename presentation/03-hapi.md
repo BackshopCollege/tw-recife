@@ -440,7 +440,7 @@ Ao utilizarmos SM, ganhamos o poder de fazer caching out-of-the-box
 note:
 ```
  it is very easy to add cache to our service layer using server methods.  
- ok let's do it !   
+ ok lets do it !   
 
   server.method('add', function(a,b, callback) {   
     setTimeout(function() {  
@@ -452,3 +452,24 @@ note:
 
 
 ## Tests
+
+
+![bart-tests](images/bart-tests.png)
+
+
+## Helpers
+
+![lab](images/lab.png)  
+![chai](images/chai.png)
+
+Note:
+var Lab = require('lab');  
+var assert =  require('chai').assert;  
+var lab = exports.lab = Lab.script();  
+
+var describe = lab.describe;  
+var it = lab.it;  
+var before = lab.before;  
+var after = lab.after;  
+var beforeEach = lab.beforeEach;  
+

@@ -28,16 +28,6 @@ Note:
 > Node allows you to build scalable network applications using JavaScript on the server-side.
 
 
-### JavaScript: V8 Javascript engine
-
-![V8](images/v8.jpg)
-
-
-### Cross-platforma: libuv
-
-![Libuv](images/libuv.png)
-
-
 ![nodejs-libuv](images/nodejs-libuv.png)
 
 
