@@ -172,8 +172,8 @@ Note:
 
  - command line arguments
  - ler um ficheiro
- - criando um module
- - downloading modules externos ( npm )
+ - criando um módulo
+ - downloading módulos externos ( npm )
   - install
   - criando package.json ( init )
   - install versão especifica
