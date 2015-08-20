@@ -181,6 +181,7 @@ Note:
   - install versão especifica
   - install github
   - install dev dependencies
+ - Uppercase arquivo utilizando stream
  - raw HTTP Server
- - socket.io
+ - cliente http ( http.request )
 
