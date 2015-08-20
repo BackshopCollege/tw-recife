@@ -183,3 +183,14 @@ Note:
   - install dev dependencies
  - transformando um gigante arquivo utilizando stream
  - raw HTTP server
+
+
+ ![nodeschool](images/nodeschool.png)
+
+
+## Instalação
+ 
+ ```
+  $ npm install -g learnyournode
+  $ learnyournode
+ ```
