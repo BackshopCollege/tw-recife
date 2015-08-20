@@ -145,7 +145,7 @@ Note:
 
 ## Node Module System
  
- Qual o sistema de modulos/namespace que JS possui ?
+ Qual o sistema de modulos que JS possui ?
  ![do-it-shutup](images/do-it-shutup.jpg)
 
 
@@ -172,9 +172,15 @@ Note:
 
 ## Let's Play
 
- - Event-Emitter
- - Ler um ficheiro.
- - Watch Ficheiro.
- - Raw HTTP Server
- - WebSocket
+ - command line arguments
+ - ler um ficheiro
+ - criando um module
+ - downloading modules externos ( npm )
+  - install
+  - criando package.json ( init )
+  - install versão especifica
+  - install github
+  - install dev dependencies
+ - raw HTTP Server
+ - socket.io
 
