@@ -156,6 +156,7 @@ Note:
 ## Let's
 ![do-it](images/do-it.jpg)
 
+
  - repl
  - command line arguments
  - ler um ficheiro
