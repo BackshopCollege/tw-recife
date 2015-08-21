@@ -156,10 +156,7 @@ Note:
 ## Let's
 ![do-it](images/do-it.jpg)
 
-<<<<<<< HEAD
 
-=======
->>>>>>> update slide
  - repl
  - command line arguments
  - ler um ficheiro
