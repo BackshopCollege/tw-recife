@@ -129,7 +129,6 @@ Note:
     queue.processNextMessage();
  }
 ```
-  [Playground](http://latentflip.com/loupe/)
 
 Note:
   Event Loop é o modelo de concorrencia do JS.   
@@ -140,8 +139,6 @@ Note:
   - Apresentar o codigo de Single Threaded
 
 
-## Node Module System
- 
  Qual o sistema de modulos que JS possui ?
 
 
@@ -156,20 +153,11 @@ Note:
 ![commonJS](images/commonjs.jpg)
 
 
-## Node APIS
-
- * TCP / UDP / TLS / HTTP / HTTPS
- * FileSystem
- * Crypto
- * Streams
- * Event-Emitter
-  ...
-
-
 ## Let's
 ![do-it](images/do-it.jpg)
 
 
+ - repl
  - command line arguments
  - ler um ficheiro
  - criando um módulo
@@ -179,7 +167,7 @@ Note:
   - install versão especifica
   - install github
   - install dev dependencies
- - transformando um gigante arquivo utilizando stream
+ - contar linhas de um ficheiro grande
  - raw HTTP server
 
 
