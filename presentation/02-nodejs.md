@@ -119,7 +119,7 @@ Note:
 ## Fluxo de Trabalho
 
 * Cliente chega ao restaurante e senta em uma mesa.
-* O Garçom atende apenas uma vez por vez.
+* O Garçom atende apenas um cliente por vez.
 * O Garçom recolhe o pedido e leva o pedido a cozinha.
 * Quando o Pedido está pronto, a cozinha toca o sino. Quando o Garçom estiver livre, pega o pedido e leva a respectiva mesa.
 
