@@ -84,7 +84,119 @@ whereAmIFrom();
 ```
 
 
-# Exercício
+![question-mark](images/question-mark.png)
+
+
+## Timers
+
+````
+function setTimeout(fn, ms) {}  
+
+function sayHello() {
+ console.log('hello');
+}
+
+setTimeout(sayHello, 1000);
+  
+  
+````
+
+
+ Qual o valor de sharedVariable ?
+
+```
+var sharedVariable = 0;
+
+function inc() {
+  sharedVariable = sharedVariable + 1;
+}
+
+var loop = 100;
+while(loop--) 
+  var t1 = setTimeout(inc, Math.floor(Math.random() * 1000));
+
+var t2 = setTimeout(function(){
+  console.log(sharedVariable); 
+}, 5000);
+```
+
+
+Em quanto tempo 'fast finished' vai aparecer ?
+
+```
+function slow() {
+  var start = Date.now();
+  while (Date.now() < start + 3e3);
+}
+
+function fast() {
+  console.log('fast finished');
+}
+
+setTimeout(slow, 1000);
+setTimeout(fast, 1000);
+
+```
+
+
+![question-mark](images/question-mark.png)
+
+
+## Qual o output ?
+```
+var person = {
+ name: 'thiago dantas',
+ age: 19,
+ sayMyName: function() {
+  if (!this.name)
+   return console.log('there is no this in the context');
+
+  console.log(this.name);
+ }
+};
+
+ person.sayMayName(); <----------
+
+ setTimeout(person.sayMyName, 1000); <---------
+
+```
+
+
+## Como fazer funcionar o exemplo anterior ?
+
+Note:
+
+```
+ // bind
+ setTimeout(person.sayMyName.bind(person), 1000);
+
+```
+
+# Exercício 1
+
+Transformar esta funcão com uma interface sync em async
+
+```
+
+function getRemoteUser(id) {
+ jQuery.ajax({
+   url: 'http://api.somewhere.com/users/' + id,
+   success: function(user) {
+    
+   }
+ });
+}
+
+function printUser(user) {
+ console.log(user);
+}
+
+var user = getRemoteUser(100);
+printUser(user);
+
+```
+
+Exercicio 2
 
 ```
 function square(number) {

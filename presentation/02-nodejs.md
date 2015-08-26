@@ -87,7 +87,7 @@ console.log(response);
 ```
 
 
-## Real World
+## o mundo assíncrono
 ```
 var userId = 239;
 User.by(userId, function(err, user) {
@@ -106,6 +106,11 @@ Note:
   No sincrono sabemos que o 'return' faz este papel.
 
 
+## Event-Loop 
+
+![assincrono](images/assincrono.png)
+
+
 ## Metáfora Event Loop
 
 ![garcon](images/waiter.jpg)
@@ -119,7 +124,6 @@ Note:
 * Quando o Pedido está pronto, a cozinha toca o sino. Quando o Garçom estiver livre, pega o pedido e leva a respectiva mesa.
 
 
-![assincrono](images/assincrono.png)
 
 
 ## Pseudo-código
@@ -130,32 +134,9 @@ Note:
  }
 ```
 
-Note:
-  Event Loop é o modelo de concorrencia do JS.   
-  Podemos pensar como se todo nosso codigo fosse implicitamente sincronizado.   
-
-  Actor Model Analogia
-
-  - Apresentar o codigo de Single Threaded
-
-
- Qual o sistema de modulos que JS possui ?
-
-
-## JS não tem um built-in module system
-   ##### Workaround da Comunidade
-
-* CommonJS
-* Asynchronous Module Definition (AMD)
-
-
-### Node Module System
-![commonJS](images/commonjs.jpg)
-
 
 ## Let's
 ![do-it](images/do-it.jpg)
-
 
  - repl
  - command line arguments
@@ -168,7 +149,8 @@ Note:
   - install github
   - install dev dependencies
  - contar linhas de um ficheiro grande
- - raw HTTP server
+ - callback hell ( control flow using async )
+ - http basic server
 
 
  ![nodeschool](images/nodeschool.png)
