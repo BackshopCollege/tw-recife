@@ -124,8 +124,6 @@ Note:
 * Quando o Pedido está pronto, a cozinha toca o sino. Quando o Garçom estiver livre, pega o pedido e leva a respectiva mesa.
 
 
-
-
 ## Pseudo-código
 
 ```
