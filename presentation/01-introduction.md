@@ -3,9 +3,6 @@
 ![node](images/node.png)
 
 
-## como surgiu tudo isto ?
-
-
 ## About me 
 ### Thiago Dantas   
 
