@@ -169,19 +169,17 @@ Note:
 ```
 
 
-# Exercício 1
-
 Transformar esta funcão com uma interface sync em async
 
 ```
 
 function getRemoteUser(id) {
- jQuery.ajax({
-   url: 'http://api.somewhere.com/users/' + id,
-   success: function(user) {
-    
-   }
- });
+  var user = {
+    id: id,
+    name: 'thiago'
+  };
+  
+  return user;
 }
 
 function printUser(user) {
