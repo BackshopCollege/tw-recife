@@ -134,7 +134,9 @@ Note:
 
 
 ## Let's
+
 ![do-it](images/do-it.jpg)
+
 
  - repl
  - command line arguments
@@ -151,7 +153,7 @@ Note:
  - http basic server
 
 
- ![nodeschool](images/nodeschool.png)
+![nodeschool](images/nodeschool.png)
 
 
 ## Instalação

@@ -145,6 +145,7 @@ setTimeout(fast, 1000);
 
 
 ## Qual o output ?
+
 ```
 var person = {
  name: 'thiago dantas',
@@ -165,7 +166,6 @@ var person = {
 
 
 ## Como fazer funcionar o exemplo anterior ?
-
 Note:
 
 ```
@@ -173,6 +173,7 @@ Note:
  setTimeout(person.sayMyName.bind(person), 1000);
 
 ```
+
 
 # Exercício 1
 
@@ -198,7 +199,8 @@ printUser(user);
 
 ```
 
-Exercicio 2
+
+# Exercicio 2
 
 ```
 function square(number) {
@@ -206,7 +208,8 @@ function square(number) {
     return number * number;
   }, Math.floor(Math.random() * 100));
 }
-var numbers = [ 1, 2, 3, 4, 5];
+
+var numbers = [ 1, 2, 3, 4, 5 ];
 
 map(numbers, square, function(err, result) {
   if (err)
