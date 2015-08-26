@@ -121,16 +121,18 @@ var t2 = setTimeout(function(){
 ```
 
 
-Em quanto tempo 'fast finished' vai aparecer ?
+# Qual o output ?
 
 ```
 function slow() {
   var start = Date.now();
   while (Date.now() < start + 3e3);
+
+  console.log('slow');
 }
 
 function fast() {
-  console.log('fast finished');
+  console.log('fast');
 }
 
 setTimeout(slow, 1000);
