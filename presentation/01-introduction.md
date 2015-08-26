@@ -121,7 +121,7 @@ var t2 = setTimeout(function(){
 ```
 
 
-# Qual o output ?
+## Qual o output ?
 
 ```
 function slow() {
