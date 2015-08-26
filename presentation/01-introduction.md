@@ -3,10 +3,7 @@
 ![node](images/node.png)
 
 
-# Obrigado 
-
-##Andrei Tognolo
-![tw](images/thoughworks.png)  
+## intuito
 
 
 ## About me 
