@@ -192,7 +192,7 @@ printUser(user);
 ```
 
 
-# Exercicio 2
+# Exercicio
 
 ```
 function square(number) {
