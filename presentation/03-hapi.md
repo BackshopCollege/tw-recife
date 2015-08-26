@@ -472,4 +472,10 @@ var it = lab.it;
 var before = lab.before;  
 var after = lab.after;  
 var beforeEach = lab.beforeEach;  
+server.inject({ 
+  method: 'POST', 
+  url: '/url',
+  payload: { name: 'thiago' },
+  headers: { 'x-custom': 'thiago' }
+ }), verify);
 
