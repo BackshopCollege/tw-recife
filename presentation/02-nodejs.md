@@ -108,8 +108,6 @@ Note:
 
 ## Event-Loop 
 
-![assincrono](images/assincrono.png)
-
 
 ## Metáfora Event Loop
 
@@ -123,6 +121,9 @@ Note:
 * O Garçom recolhe o pedido e leva o pedido a cozinha.
 * Quando o Pedido está pronto, a cozinha toca o sino. 
 * Quando o Garçom estiver livre, pega o pedido e leva a respectiva mesa.
+
+
+![assincrono](images/assincrono.png)
 
 
 ## Pseudo-código
