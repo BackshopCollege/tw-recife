@@ -21,5 +21,3 @@
 > Venham nos visitar em Lisboa e Londres
 
 > Para mais treinamento: training@yld.io
-
-

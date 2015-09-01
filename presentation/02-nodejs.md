@@ -72,22 +72,29 @@ puts 'Email Sent'
 
 ## Assíncrono
 
-#### Bate e Volta
-
+Transformar de Sync para Async
 ```
-function webService(id) {
-  setTimeout(function(){
-    var body = 'webService response payload ' + id;
-    return body;
-  }, 1000);
+
+function getRemoteUser(id) {
+  var user = {
+    id: id,
+    name: 'thiago'
+  };
+  
+  return user;
 }
 
-var response = webService(100);
-console.log(response);
+function printUser(user) {
+ console.log(user);
+}
+
+var user = getRemoteUser(100);
+printUser(user);
+
 ```
 
 
-## o mundo assíncrono
+## o mundo visto assincronamente
 ```
 var userId = 239;
 User.by(userId, function(err, user) {
@@ -143,6 +150,7 @@ Note:
  - repl
  - command line arguments
  - ler um ficheiro
+ - http basic server
  - criando um módulo
  - downloading módulos externos ( npm )
   - install
@@ -150,15 +158,12 @@ Note:
   - install versão especifica
   - install github
   - install dev dependencies
- - contar linhas de um ficheiro grande
- - callback hell ( control flow using async )
- - http basic server
 
 
 ![nodeschool](images/nodeschool.png)
 
 
-## Instalação
+## Homework 
  
  ```
   $ npm install -g learnyounode

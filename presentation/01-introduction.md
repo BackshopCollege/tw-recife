@@ -107,7 +107,7 @@ function inc() {
 
 var loop = 100;
 while(loop--) 
-  var t1 = setTimeout(inc, Math.floor(Math.random() * 1000));
+  var t1 = setTimeout(inc, 1000);
 
 var t2 = setTimeout(function(){
   console.log(sharedVariable); 
@@ -138,63 +138,10 @@ setTimeout(fast, 1000);
 ![question-mark](images/question-mark.png)
 
 
-## Qual o output ?
+## Homework
 
-```
-var person = {
- name: 'thiago dantas',
- age: 19,
- sayMyName: function() {
-  if (!this.name)
-   return console.log('there is no this in the context');
+```  
 
-  console.log(this.name);
- }
-};
-
- person.sayMayName(); <----------
-
- setTimeout(person.sayMyName, 1000); <---------
-
-```
-
-
-## Como fazer funcionar o exemplo anterior ?
-Note:
-
-```
- // bind
- setTimeout(person.sayMyName.bind(person), 1000);
-
-```
-
-
-Transformar esta funcão com uma interface sync em async
-
-```
-
-function getRemoteUser(id) {
-  var user = {
-    id: id,
-    name: 'thiago'
-  };
-  
-  return user;
-}
-
-function printUser(user) {
- console.log(user);
-}
-
-var user = getRemoteUser(100);
-printUser(user);
-
-```
-
-
-# Exercicio
-
-```
 function square(number) {
   setTimeout(function() {
     return number * number;
@@ -209,11 +156,7 @@ map(numbers, square, function(err, result) {
 
   console.log(result); // [ 1, 4, 9, 16, 25 ]
 });
-
 ```
-Note:
- alterar a assinatura da square function.   
- js é single threaded ;)
 
 
 #Agenda
@@ -222,13 +165,11 @@ Note:
  
  * Nodejs Intro
  * NodeSchool
- * Questões
 
 
 #Agenda
  ### Tarde
    
  * HapiJS
- * Questões
- * BEER O'clock \0/
+ * Questões / Dúvidas
 

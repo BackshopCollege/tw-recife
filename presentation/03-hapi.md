@@ -166,10 +166,10 @@ Note:
 </span>
 
 
-http://api.thoughtworks.com.br/users/179
+http://api.your-domain.com.br/users/179
 
 
-http://api.thoughtworks.com.br/users/<span style='color:white'>179</span>  
+http://api.your-domain.com.br/users/<span style='color:white'>179</span>  
 
 note:
   Again, everything that comes from the user-agent/client   
